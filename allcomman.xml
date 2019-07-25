@@ -1,0 +1,23 @@
+<!--   AdIn contains the deails of Ad in pages
+1- ShowMenuAd 2-LevelSelection 3-Upgrade 4-LevelComplete 5-PreLevelFail 6-LevelFail
+RotationType 1->Admob 20>Unity
+**Dont Give Empty values-->
+<GameData>
+<Version levelxmlversion="1.0" gameversion="1.0"/>
+<Desc RateDesc="How Many stars you want to give ? " ShareDesc="Share And Get 100 Coins"/>
+<PopUpLvls RateInLvls="30" ShareInLvls="60_130_190"/>
+<Coins RateCoins="0" ShareCoins="100"/>
+<DiscountPop Menu="30_70" UPLS="40_40"/>
+<Addelay Addelay="60" lcaddelay="2.2" lfaddelay="2" prelfdelay="1" upldelay="1"/>
+<AdType RotationType="1_2_3" RotationRewardType="1_2_3"/>
+<AdIn pages="0_0_0_0_0_0"/>
+<shareLink urlFB="https://play.google.com/store/apps/developer?id=KiKi+LLC"/>
+<!--<moregames 
+mgImgLink1="https://lh3.googleusercontent.com/xvc9_9C18dKDE0l16jb-BDAYjH6ktZmTyYH_5dfI231S8OCutQ84hMC6sYasXOzproAF=s180-rw" mgLinkto1="market://details?id=com.superhero.crime.rescue.city.flash.game"
+mgImgLink2="https://lh3.googleusercontent.com/xvc9_9C18dKDE0l16jb-BDAYjH6ktZmTyYH_5dfI231S8OCutQ84hMC6sYasXOzproAF=s180-rw" mgLinkto2="market://details?id=com.superhero.crime.rescue.city.flash.game"
+mgImgLink3="https://lh3.googleusercontent.com/xvc9_9C18dKDE0l16jb-BDAYjH6ktZmTyYH_5dfI231S8OCutQ84hMC6sYasXOzproAF=s180-rw" mgLinkto3="market://details?id=com.superhero.crime.rescue.city.flash.game"
+mgImgLink4="https://lh3.googleusercontent.com/xvc9_9C18dKDE0l16jb-BDAYjH6ktZmTyYH_5dfI231S8OCutQ84hMC6sYasXOzproAF=s180-rw" mgLinkto4="market://details?id=com.superhero.crime.rescue.city.flash.game"
+mgImgLink5="https://lh3.googleusercontent.com/xvc9_9C18dKDE0l16jb-BDAYjH6ktZmTyYH_5dfI231S8OCutQ84hMC6sYasXOzproAF=s180-rw" mgLinkto5="market://details?id=com.superhero.crime.rescue.city.flash.game"
+/>-->
+/>
+</GameData>

@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>More Games</title>
+<meta name="description" content="Free online fun games arcade. We have fun and addicting games to play all day.">
+<meta name="keywords" content="fun games, free games, online games, flash arcade, fun, addicting.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"> 
+<meta name="HandheldFriendly" content="True">
+<style>
+body{ background:#e5e5e5; margin:auto; padding:0;}
+#header2 {
+    background-color: #a9aaaa;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+.header2_txt {
+    color: #272727;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.275em;
+    font-weight: bold;
+    padding-top: 9px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.mainexit {
+    background: #85b257;
+    border: 1px solid #73a84d;
+    height: 100%;
+    width: 70%;
+}
+a{ text-decoration:none; color:#000000;}
+#closeimg {
+    float: left;
+    margin-right: 2px;
+    padding: 5px;
+    width: 44%;
+}
+#closeimg img {
+    display: block;
+    width: 50%;
+}
+#closeimg2 {
+    float: left;
+    margin-left: 2px;
+    padding: 5px;
+    width: 44%;
+}
+#closeimg2 img {
+    display: block;
+    width: 50%;
+}
+#closeimg3 {
+    padding: 5px;
+}
+#closeimg3 img {
+    display: block;
+    width: 24%;
+}
+#gameicon {
+    background: none repeat scroll 0 0 #fff;
+    margin-right: 10px;
+    padding: 10px;
+}
+#gameicon img {
+    display: block;
+    width: 100%;
+}
+h5 {
+    color: #000;
+    font: 13px/13px "PT Sans",Arial,Helvetica,sans-serif;
+    margin: 0 0 7px;
+}
+#gameicon_star {
+    padding-bottom: 8px;
+    padding-top: 2px;
+}
+#gameicon_play_txt {
+    color: #272727;
+    font-family: Arial,Helvetica,sans-serif;
+   font-size: 12px/12px;
+    /*font-weight: bold;*/
+    text-align: center; text-transform:uppercase;
+}
+
+#header1 {
+ background-color: #e5e5e5;
+    bottom: 0;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    height: 60px;
+    position: fixed;
+    text-align: center;
+    width: 99%; font-family: Arial,Helvetica,sans-serif; font-weight:bold;
+}
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center; margin-top:14px;
+}
+
+#navcontainer ul li { display: inline;  }
+
+#navcontainer ul li a
+{
+text-decoration: none;
+padding: 12px 14% 12px 14%;
+
+ border-top:1px solid #bbbbbb; border-bottom:1px solid #bbbbbb; border-right:1px solid #cccccc; border-left:1px solid #cccccc;
+}
+
+#navcontainer ul li a:hover
+{
+color: #101010;
+background: linear-gradient(#ebebeb, #dadada) repeat scroll 0 0 #dadada;
+}
+#navcontainer ul li a:hover
+{
+color: #101010;
+background: linear-gradient(#ebebeb, #dadada) repeat scroll 0 0 #dadada;
+}
+.ui-grid-b .ui-block-a {
+    clear: left;
+}
+.ui-block-a {
+    width: 33.333%;
+}
+.ui-btn-active {
+    background-color:#8dc331;;
+    color: #fff;
+    cursor: pointer;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.ui-btn-normal {
+background: linear-gradient(#fdfdfd, #eee) repeat scroll 0 0 #eee;
+color: #444444;
+    cursor: pointer;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+#gameicon_tittle{ #FFF;  text-align:left; padding-left:5px; font-family: Verdana, Geneva, sans-serif; font-weight:bold; text-decoration:none; font-size:16px; 
+background-position: right;   padding-bottom: 8px; color:#000; 
+}
+</style>
+<script type="text/javascript">
+function sendDataToFlash(str){
+	//document.location=("?linkdata=" +str);
+	
+	if(typeof Android !== "undefined" && Android !== null) {
+        //Android.showToast(toast);
+        
+		if(str == 'yes'){
+			Android.yesclick();
+		}else if(str == 'no'){
+			Android.noclick();
+		
+		}else if(str == 'rateit'){
+			Android.rateclick();
+		
+		}else{
+			Android.opengame(str);
+		}
+	} else {
+       alert("Not viewing in webview");
+	   document.location=("?linkdata=" +str);
+    }
+}
+</script>
+</head>
+
+<body>
+
+<div data-role="header1" id="header1">  
+  Are you sure you want to quit?                          
+<div id="navcontainer"> <ul>
+                    <li class="ui-block-a"><a href="javascript:sendDataToFlash('yes')" class="ui-btn-normal"  data-tab-class="tab1">Yes </a></li>
+                   <li class="ui-block-a"><a href="javascript:sendDataToFlash('no')" class="ui-btn-normal" data-tab-class="tab2">No</a></li>
+                   <li class="ui-block-a"><a href="javascript:sendDataToFlash('rateit')" class="ui-btn-active" data-tab-class="tab3">Rate it</a></li>
+                </ul></div>
+</div>
+        <div class="row"> 
+
+  <table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tbody><tr>
+  
+  
+   <td width="25%">
+     <div id="gameicon">
+               <a href="javascript:sendDataToFlash('com.superhero.crime.rescue.city.flash.game')">
+         <img alt="" src="https://lh3.googleusercontent.com/5KD1FUM8dJiZUwmleWjVO5bF4fdvqC6Lg22GvrgRU2dJVhKC4vnSWXakp0OLyvGmk0ad409wEXllwrRFl9fuDqA=h600" border="0" /></a>
+       
+       
+       
+       <div id="gameicon_tittle1">
+         <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tr>
+           <td width="35%" align="center" valign="middle">
+             
+             <h5 style="text-align:center; ">&nbsp;</h5>
+             </td>
+           </tr>
+</table> </div>
+     </div>
+   </td>     
+  
+          </tr>
+
+</tbody></table>
+                </div>
+</body>
+</html>

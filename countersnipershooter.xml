@@ -11,7 +11,7 @@ RotationType 1->Admob 20>Unity
 <Addelay Addelay="90" lcaddelay="1.0" lfaddelay="1" prelfdelay="1" upldelay="1"/>
 <AdType RotationType="2_1_3" RotationRewardType="1_3_1"/>
 <AdIn pages="1_0_0_4_0_6"/>
-<shareLink urlFB="https://play.google.com/store/apps/details?id=com.kikillc.counter.snipershooter.highway.headshot"/>
+<shareLink urlFB="https://play.google.com/store/apps/details?id=com.frkg.counter.snipershooterhighway"/>
 <Notification onesignal="c2ce83d0-4bba-4a3a-9652-6ebdb5b740d9_891613625949"/>
 <!--<moregames 
 mgImgLink1="https://lh3.googleusercontent.com/xvc9_9C18dKDE0l16jb-BDAYjH6ktZmTyYH_5dfI231S8OCutQ84hMC6sYasXOzproAF=s180-rw" mgLinkto1="market://details?id=com.superhero.crime.rescue.city.flash.game"

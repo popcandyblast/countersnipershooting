@@ -11,7 +11,7 @@ RotationType 1->Admob 20>Unity
 <Addelay Addelay="60" lcaddelay="2.2" lfaddelay="2" prelfdelay="1" upldelay="1"/>
 <AdType RotationType="1_2_3" RotationRewardType="1_2_3"/>
 <AdIn pages="0_0_0_0_0_0"/>
-<shareLink urlFB="https://play.google.com/store/apps/developer?id=KiKi+LLC"/>
+<shareLink urlFB="https://play.google.com/store/apps/developer?id=Free+Kids+Game+Inc."/>
 <!--<moregames 
 mgImgLink1="https://lh3.googleusercontent.com/xvc9_9C18dKDE0l16jb-BDAYjH6ktZmTyYH_5dfI231S8OCutQ84hMC6sYasXOzproAF=s180-rw" mgLinkto1="market://details?id=com.superhero.crime.rescue.city.flash.game"
 mgImgLink2="https://lh3.googleusercontent.com/xvc9_9C18dKDE0l16jb-BDAYjH6ktZmTyYH_5dfI231S8OCutQ84hMC6sYasXOzproAF=s180-rw" mgLinkto2="market://details?id=com.superhero.crime.rescue.city.flash.game"
